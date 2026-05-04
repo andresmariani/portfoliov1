@@ -1,0 +1,36 @@
+{
+  "name": "ivan-portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.4.1",
+    "clsx": "^2.1.1",
+    "eslint": "^9.39.1",
+    "next": "^16.0.5",
+    "nodemailer": "^8.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^16.0.5",
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.0",
+    "autoprefixer": "^10.4.13",
+    "cross-env": "^7.0.3",
+    "eslint-config-next": "^16.0.5",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
