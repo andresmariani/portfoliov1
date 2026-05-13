@@ -1,5 +1,7 @@
 import './globals.css'
 import type { Metadata } from 'next'
+import { LanguageProvider } from '../context/LanguageContext'
+import LanguageToggle from '../components/LanguageToggle'
 
 export const metadata: Metadata = {
   title: 'Andrés Mariani Bergoen | Artista Visual',
@@ -14,7 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <LanguageProvider>
+          <LanguageToggle />
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   )

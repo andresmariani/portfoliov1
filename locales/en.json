@@ -1,0 +1,152 @@
+{
+  "header": {
+    "title": "Andrés Mariani Bergoen",
+    "subtitle": "Visual artist and material researcher. Santa Fe, Argentina.",
+    "coords": "31°38′S 60°42′W"
+  },
+  "nav": {
+    "home": "Home",
+    "statement": "Statement",
+    "works": "Works",
+    "research": "Research",
+    "cv": "Curriculum Vitae",
+    "contact": "Contact"
+  },
+  "home": {
+    "bio": "Andrés Mariani Bergoen is a visual artist and material researcher based in Santa Fe, Argentina. His practice is situated at the intersection of installation, sculpture, sound, and audiovisual experimentation, with a specific territorial anchor in the Paraná River literal region."
+  },
+  "statement": {
+    "title": "STATEMENT",
+    "p1": "I work with matter that has already been affected. I am not interested in matter in a neutral state, but in matter that bears the inscription of a force that is no longer there — the electrical discharge that carbonized the wood, the pressure the water exerted on the sediment, the time that accumulated soot on a filter, the heat that passed through the glass and remained as a bubble on its surface.",
+    "p2": "This matter does not represent anything. It is the direct record of something that occurred. My work consists of finding the device that makes this condition perceptible — that allows what the matter carries to reach the spectator's body before language exhausts it.",
+    "p3": "I come from the Paraná literal region, and that territory appears in my works not as a subject but as substance: in the sediments, in the water, in the clays, in the air that the brown-chested martin traverses every spring over the river. I do not make works about the literal region — I make works with it.",
+    "p4": "What interests me most about this body of work is the question that traverses it without any single piece fully answering it: what persists when the origin has disappeared. The restitution without referent. The record without event. The form of an instrument that did not come to be. The loss that continues to occur. The threshold that is only crossed to disappear. Each piece is a different way of holding that question open.",
+    "p5": "What runs through the whole is not a theme but a grammar: matter as an archive of forces that exceed it, the exhibition space as a place where that condition becomes perceptible, the spectator's body as a constitutive part of the device."
+  },
+  "works": {
+    "subtitle": "Selection of recent projects and research.",
+    "ref_viz": "Reference visualization",
+    "labels": {
+      "year": "Year:",
+      "status": "Status:",
+      "format": "Format:",
+      "materials": "Materials:",
+      "territory": "Territory:"
+    },
+    "fuga_noir": {
+      "title": "FUGA NOIR",
+      "desc": "FUGA NOIR is a sculptural device built with clays, sediments, and water from the Paraná river literal region. The piece slowly exudes a dark fluid from a single vanishing point while a system of piezoelectric microphones captures the internal vibration produced by the falling drops and translates it into low frequencies perceptible in the spectator's body. The work functions as an active system of irreversible loss: something continuously leaves the sculptural body, and that subtraction becomes visible, sonorous, and physical at the same time.",
+      "year": "2024–2025",
+      "status": "Research and prototyping",
+      "format": "Sculptural and sound installation",
+      "materials": "Sediments, clays, fluids, hydraulic system, sound",
+      "territory": "Paraná River literal region / Arga River"
+    },
+    "cedencia_pleuro": {
+      "title": "CEDENCIA PLEURO",
+      "desc": "CEDENCIA PLEURO is a living installation developed from active mycelium of Pleurotus ostreatus and water from the Paraná river. The work investigates relationships between fluvial foam, surface chemistry, and interstitial behavior through a system where water is retained within a mycelial network in a vegetative phase. The presence of the spectator alters that geometry and triggers the appearance and collapse of foam on the surface of the piece. The project is developed in consultation with specialists in mycology and materials from the Santa Fe literal region.",
+      "year": "In development, 2025",
+      "status": "Research in development",
+      "format": "Material research and experimental installation",
+      "materials": "Mycelium, Paraná river water, agricultural fibers, audiovisual record",
+      "territory": "La Plata Basin / Santa Fe literal region"
+    },
+    "traza_crono": {
+      "title": "TRAZA CRONO",
+      "desc": "TRAZA CRONO is a mural grid of HEPA and fiberglass filters that accumulate nine months of air from the Santa Fe literal region during the migratory season of the brown-chested martin (Progne tapera). The work does not record the atmosphere in real time: it arrives at the gallery as an already constructed material archive. The arrangement of the modules derives from presence, concentration, and migratory displacement data obtained from eBird Santa Fe. The grid does not illustrate the behavior of the species: it is physically organized by it.",
+      "year": "Ongoing research, 2024–2025",
+      "status": "Conceptualization and visualization",
+      "format": "Sculptural installation",
+      "materials": "Sediments, mineral surfaces, physical record",
+      "territory": "Paraná River literal region"
+    },
+    "tizne_primal": {
+      "title": "TIZNE PRIMAL",
+      "desc": "TIZNE PRIMAL consists of a mural intervention built from wood carbonized by direct transmission from a fragment affected by an atmospheric electrical discharge. A compressed black mass occupies a rectangular niche excavated in the wall, as if the architecture contained under pressure the material persistence of a disappeared event. The work does not represent the discharge: it works with its physical inscription in matter. Geographic coordinates and date of impact appear engraved in bas-relief under the intervened wall.",
+      "year": "In development, 2025",
+      "status": "Research and visualization",
+      "format": "Material installation",
+      "materials": "Soot, mineral surfaces, combustion residues",
+      "territory": "Santa Fe literal region"
+    },
+    "persistem": {
+      "title": "PERSISTEM",
+      "desc": "PERSISTEM is an installation built from an industrial cement tube that emerges horizontally from the gallery floor as if it had always been there. The interior is painted matte oxide red and contains a technical-symbolic inscription engraved at the exact threshold where the structure disappears under the ground. The work takes references from foundational deposits and hydraulic archaeologies to construct a device where the spectator perceives material consequences without ever accessing the origin of the system.",
+      "year": "2024–2025",
+      "status": "Conceptual research",
+      "format": "Sculptural installation",
+      "materials": "Sediments, resonant structures, tension systems",
+      "territory": "Paraná River literal region"
+    },
+    "tramas_inestables": {
+      "title": "TRAMAS INESTABLES",
+      "desc": "TRAMAS INESTABLES is an audiovisual installation that articulates generative artificial intelligence, video synthesis, and handmade textile surfaces. The project starts from images produced with open-source models and subsequently processed through Hydra Video Synth, where the code introduces displacements, noise, feedback, and progressive degradations onto the original image. The resulting material is projected onto artisanal felt structures, transforming the textile surface into an active body that absorbs, distors, and reorganizes the projection.",
+      "year": "2025",
+      "status": "Presented project",
+      "format": "Audiovisual installation",
+      "materials": "Generative AI, Hydra Video Synth, artisanal felt, projection",
+      "territory": ""
+    }
+  },
+  "research_page": {
+    "title": "CHARQUEMAL",
+    "p1": "CHARQUEMAL is an artistic research line focused on matter as a carrier of time, physical memory, and invisible forces. The practice works with sediment, humidity, air, soot, vibration, and slow transformation processes through installation, sculpture, sound, and material experimentation.",
+    "p2": "Developed from the Paraná river literal region, the research does not use the territory as an image or representation, but as active working matter. Clays, water, organic residues, atmospheric phenomena, and dynamics of accumulation and wear participate directly in the physical constitution of the works.",
+    "p3": "The projects function as open systems in different phases of research, prototyping, and production."
+  },
+  "cv": {
+    "sections": {
+      "bio": "Bio",
+      "education": "Education",
+      "projects": "Projects and Research",
+      "audiovisual": "Selected Audiovisual",
+      "awards": "Awards"
+    },
+    "bio_text": "Visual artist and material researcher whose practice is situated at the intersection of installation, sculpture, sound, and audiovisual experimentation. His recent research is developed under the framework of CHARQUEMAL, a line of work focused on sediment, humidity, vibration, and slow transformation processes from the Paraná river literal region.",
+    "education_list": [
+      {
+        "title": "Diploma in Artificial Intelligence Applied to Multimedia Art",
+        "institution": "Universidad Nacional de las Artes"
+      },
+      {
+        "title": "Higher Technician in Audiovisual Arts",
+        "institution": "Instituto Superior de Cine y Artes Audiovisuales N°10, Santa Fe"
+      },
+      {
+        "title": "Bachelor's Degree in Arts and Technologies",
+        "institution": "Universidad Nacional de Quilmes (ongoing)"
+      }
+    ],
+    "projects_list": [
+      {
+        "title": "CHARQUEMAL — Artistic research in development (2025–present)",
+        "desc": "FUGA NOIR / CEDENCIA PLEURO / TRAZA CRONO / TIZNE PRIMAL / PERSISTEM"
+      },
+      {
+        "title": "TRAMAS INESTABLES (2025)",
+        "desc": "Audiovisual installation project. Participation in pitch session at Fundación Andreani."
+      }
+    ],
+    "audiovisual_list": [
+      {
+        "title": "FUEGUINOS — Stop motion short film in production",
+        "desc": "Grants: Espacio Santafesino (2020) and Fondo Nacional de las Artes (2022)"
+      },
+      {
+        "title": "PARANOICUS (2015)",
+        "desc": "Stop motion animation short film"
+      },
+      {
+        "title": "DERECHO VIEJO (2019)",
+        "desc": "Art Assistant — Televisión Pública Argentina"
+      }
+    ],
+    "awards_text": "Second place international — Youth Video Competition S4D Korea (2023), Second Summit for Democracy, Seoul, South Korea."
+  },
+  "contact": {
+    "title": "CONTACT / INQUIRIES",
+    "availability": "Currently available for exhibition projects, material research, and residencies.",
+    "email_label": "Email:",
+    "instagram_label": "Instagram:"
+  }
+}

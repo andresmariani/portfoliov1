@@ -1,0 +1,152 @@
+{
+  "header": {
+    "title": "Andrés Mariani Bergoen",
+    "subtitle": "Artista visual e investigador material. Santa Fe, Argentina.",
+    "coords": "31°38′S 60°42′W"
+  },
+  "nav": {
+    "home": "Home",
+    "statement": "Statement",
+    "works": "Works / Obras",
+    "research": "Research / Investigación",
+    "cv": "Curriculum Vitae",
+    "contact": "Contact / Inquiries"
+  },
+  "home": {
+    "bio": "Andrés Mariani Bergoen es artista visual e investigador material radicado en Santa Fe, Argentina. Su práctica se sitúa en el cruce entre instalación, escultura, sonido y experimentación audiovisual, con un anclaje territorial específico en el litoral del Paraná."
+  },
+  "statement": {
+    "title": "STATEMENT",
+    "p1": "Trabajo con materia que ya fue afectada. No me interesa la materia en estado neutro sino la materia que lleva inscripta una fuerza que ya no está — la descarga que carbonizó la madera, la presión que el agua ejerció sobre el sedimento, el tiempo que acumuló hollín sobre un filtro, el calor que atravesó el vidrio y quedó como burbuja en su superficie.",
+    "p2": "Esa materia no representa nada. Es el registro directo de algo que ocurrió. Mi trabajo consiste en encontrar el dispositivo que haga perceptible esa condición — que permita que lo que la materia porta llegue al cuerpo del espectador sin que el lenguaje lo agote antes.",
+    "p3": "Vengo del litoral del Paraná y ese territorio aparece en mis obras no como tema sino como sustancia: en los sedimentos, en el agua, en las arcillas, en el aire que la golondrina parda atraviesa cada primavera sobre el río. No hago obras sobre el litoral — hago obras con él.",
+    "p4": "Lo que más me interesa de este cuerpo de obra es la pregunta que lo atraviesa sin que ninguna pieza la responda del todo: qué persiste cuando el origen ha desaparecido. La restitución sin referente. El registro sin evento. La forma de un instrumento que no llegó a ser. La pérdida que continúa ocurriendo. El umbral que solo se cruza para desaparecer. Cada pieza es una manera diferente de sostener esa pregunta abierta.",
+    "p5": "Lo que atraviesa el conjunto no es un tema sino una gramática: la materia como archivo de fuerzas que la exceden, el espacio de exhibición como lugar donde esa condición se vuelve perceptible, el cuerpo del espectador como parte constitutiva del dispositivo."
+  },
+  "works": {
+    "subtitle": "Selección de proyectos e investigaciones recientes.",
+    "ref_viz": "Visualización de referencia",
+    "labels": {
+      "year": "Año:",
+      "status": "Estado:",
+      "format": "Formato:",
+      "materials": "Materiales:",
+      "territory": "Territorio:"
+    },
+    "fuga_noir": {
+      "title": "FUGA NOIR",
+      "desc": "FUGA NOIR es un dispositivo escultórico construido con arcillas, sedimentos y agua del litoral del Paraná. La pieza exuda lentamente un fluido oscuro desde un único punto de fuga mientras un sistema de micrófonos piezoeléctricos captura la vibración interna producida por la caída de las gotas y la traduce en bajas frecuencias perceptibles en el cuerpo del espectador. La obra funciona como un sistema activo de pérdida irreversible: algo abandona continuamente el cuerpo escultórico y esa sustracción se vuelve visible, sonora y física al mismo tiempo.",
+      "year": "2024–2025",
+      "status": "Investigación y prototipado",
+      "format": "Instalación escultórica y sonora",
+      "materials": "Sedimentos, arcillas, fluidos, sistema hidráulico, sonido",
+      "territory": "Litoral del Paraná / Río Arga"
+    },
+    "cedencia_pleuro": {
+      "title": "CEDENCIA PLEURO",
+      "desc": "CEDENCIA PLEURO es una instalación viva desarrollada a partir de micelio activo de Pleurotus ostreatus y agua del Paraná. La obra investiga relaciones entre espuma fluvial, tensión superficial y comportamiento intersticial mediante un sistema donde el agua queda retenida dentro de una red micelial en fase vegetativa. La presencia del espectador altera esa geometría y desencadena la aparición y el colapso de espuma sobre la superficie de la pieza. El proyecto se desarrolla en consulta con especialistas en micología y materiales del litoral santafesino.",
+      "year": "En desarrollo, 2025",
+      "status": "Investigación en desarrollo",
+      "format": "Investigación material e instalación experimental",
+      "materials": "Micelio, agua del Paraná, fibras agrícolas, registro audiovisual",
+      "territory": "Cuenca del Plata / Litoral santafesino"
+    },
+    "traza_crono": {
+      "title": "TRAZA CRONO",
+      "desc": "TRAZA CRONO es una retícula mural de filtros HEPA y fibra de vidrio que acumulan nueve meses de aire del litoral santafesino durante la temporada migratoria de la golondrina parda (Progne tapera). La obra no registra la atmósfera en tiempo real: llega a la sala como archivo material ya construido. La disposición de los módulos deriva de datos de presencia, concentración y desplazamiento migratorio obtenidos en eBird Santa Fe. La retícula no ilustra el comportamiento de la especie: está físicamente organizada por él.",
+      "year": "Investigación en curso, 2024–2025",
+      "status": "Conceptualización y visualización",
+      "format": "Instalación escultórica",
+      "materials": "Sedimentos, superficies minerales, registro físico",
+      "territory": "Litoral del Paraná"
+    },
+    "tizne_primal": {
+      "title": "TIZNE PRIMAL",
+      "desc": "TIZNE PRIMAL consiste en una intervención mural construida a partir de madera carbonizada por transmisión directa desde un fragmento afectado por una descarga eléctrica atmosférica. Una masa negra comprimida ocupa un nicho rectangular excavado en el muro, como si la arquitectura contuviera bajo presión la persistencia material de un evento ya desaparecido. La obra no representa la descarga: trabaja con su inscripción física en la materia. Coordenadas geográficas y fecha del impacto aparecen grabadas en bajorrelieve bajo el muro intervenido.",
+      "year": "En desarrollo, 2025",
+      "status": "Investigación y visualización",
+      "format": "Instalación material",
+      "materials": "Tizne, superficies minerales, residuos de combustión",
+      "territory": "Litoral santafesino"
+    },
+    "persistem": {
+      "title": "PERSISTEM",
+      "desc": "PERSISTEM es una instalación construida a partir de un tubo de cemento industrial que emerge horizontalmente desde el piso de la sala como si siempre hubiera estado allí. El interior está pintado de rojo óxido mate y contiene una inscripción técnico-simbólica grabada en el umbral exacto donde la estructura desaparece bajo el suelo. La obra toma referencias de depósitos fundacionales y arqueologías hidráulicas para construir un dispositivo donde el espectador percibe consecuencias materiales sin acceder nunca al origen del sistema.",
+      "year": "2024–2025",
+      "status": "Investigación conceptual",
+      "format": "Instalación escultórica",
+      "materials": "Sedimentos, estructuras resonantes, sistemas de tensión",
+      "territory": "Litoral del Paraná"
+    },
+    "tramas_inestables": {
+      "title": "TRAMAS INESTABLES",
+      "desc": "TRAMAS INESTABLES es una instalación audiovisual que articula inteligencia artificial generativa, síntesis de video y superficies textiles realizadas manualmente. El proyecto parte de imágenes producidas con modelos de código abierto y posteriormente procesadas mediante Hydra Video Synth, donde el código introduce desplazamientos, ruido, retroalimentaciones y degradaciones progresivas sobre la imagen original. El material resultante se proyecta sobre estructuras de fieltro artesanal, transformando la superficie textil en un cuerpo activo que absorbe, distorsiona y reorganiza la proyección.",
+      "year": "2025",
+      "status": "Proyecto presentado",
+      "format": "Instalación audiovisual",
+      "materials": "IA generativa, Hydra Video Synth, fieltro artesanal, proyección",
+      "territory": ""
+    }
+  },
+  "research_page": {
+    "title": "CHARQUEMAL",
+    "p1": "CHARQUEMAL es una línea de investigación artística centrada en la materia como portadora de tiempo, memoria física y fuerzas invisibles. La práctica trabaja con sedimento, humedad, aire, tizne, vibración y procesos de transformación lenta mediante instalación, escultura, sonido y experimentación material.",
+    "p2": "Desarrollada desde el litoral del Paraná, la investigación no utiliza el territorio como imagen o representación, sino como materia activa de trabajo. Arcillas, agua, residuos orgánicos, fenómenos atmosféricos y dinámicas de acumulación y desgaste participan directamente en la constitución física de las obras.",
+    "p3": "Los proyectos funcionan como sistemas abiertos en distintas fases de investigación, prototipado y producción."
+  },
+  "cv": {
+    "sections": {
+      "bio": "Bio",
+      "education": "Formación",
+      "projects": "Proyectos e Investigación",
+      "audiovisual": "Audiovisual Seleccionado",
+      "awards": "Distinciones"
+    },
+    "bio_text": "Artista visual e investigador material cuya práctica se sitúa en el cruce entre instalación, escultura, sonido y experimentación audiovisual. Su investigación reciente se desarrolla bajo el marco de CHARQUEMAL, una línea de trabajo centrada en sedimento, humedad, vibración y procesos de transformación lenta desde el litoral del Paraná.",
+    "education_list": [
+      {
+        "title": "Diplomatura en Inteligencia Artificial Aplicada al Arte Multimedial",
+        "institution": "Universidad Nacional de las Artes"
+      },
+      {
+        "title": "Técnico Superior en Artes Audiovisuales",
+        "institution": "Instituto Superior de Cine y Artes Audiovisuales N°10, Santa Fe"
+      },
+      {
+        "title": "Licenciatura en Artes y Tecnologías",
+        "institution": "Universidad Nacional de Quilmes (en curso)"
+      }
+    ],
+    "projects_list": [
+      {
+        "title": "CHARQUEMAL — Investigación artística en desarrollo (2025–present)",
+        "desc": "FUGA NOIR / CEDENCIA PLEURO / TRAZA CRONO / TIZNE PRIMAL / PERSISTEM"
+      },
+      {
+        "title": "TRAMAS INESTABLES (2025)",
+        "desc": "Proyecto de instalación audiovisual. Participación en jornada de pitch en Fundación Andreani."
+      }
+    ],
+    "audiovisual_list": [
+      {
+        "title": "FUEGUINOS — Cortometraje stop motion en producción",
+        "desc": "Apoyos: Espacio Santafesino (2020) y Fondo Nacional de las Artes (2022)"
+      },
+      {
+        "title": "PARANOICUS (2015)",
+        "desc": "Cortometraje de animación stop motion"
+      },
+      {
+        "title": "DERECHO VIEJO (2019)",
+        "desc": "Asistente de Arte — Televisión Pública Argentina"
+      }
+    ],
+    "awards_text": "Segundo puesto internacional — Youth Video Competition S4D Korea (2023), Second Summit for Democracy, Seúl, Corea del Sur."
+  },
+  "contact": {
+    "title": "CONTACT / INQUIRIES",
+    "availability": "Actualmente disponible para proyectos de exhibición, investigación material y residencias.",
+    "email_label": "Email:",
+    "instagram_label": "Instagram:"
+  }
+}
