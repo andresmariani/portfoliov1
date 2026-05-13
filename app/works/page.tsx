@@ -12,7 +12,7 @@ const worksList = [
   { id: "traza_crono", image: "/images/Traza_Crono_2.png" },
   { id: "cedencia_pleuro", image: "/images/Cedencia_Pleuro_2.png" },
   { id: "rasvnte", image: "/images/RASVNTE.png" },
-  { id: "tramas_inestables", image: "/images/Tramas_Inestables_2.png" },
+  { id: "tramas_inestables", image: "/images/Tramas_Inestables_3.png" },
 ];
 
 export default function Works() {
