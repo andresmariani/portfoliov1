@@ -4,6 +4,16 @@ import Link from "next/link";
 import Image from "next/image";
 import { useLanguage } from "../../context/LanguageContext";
 
+const worksList = [
+  { id: "tizne_primal", image: "/images/Tizne_Primal.png" },
+  { id: "persistem", image: "/images/PERSISTEM.png" },
+  { id: "canal_ombrosc", image: "" },
+  { id: "fuga_noir", image: "/images/Fuga_Noir.png" },
+  { id: "traza_crono", image: "/images/Traza_Crono_2.png" },
+  { id: "cedencia_pleuro", image: "/images/Cedencia_Pleuro_2.png" },
+  { id: "rasvnte", image: "" },
+];
+
 export default function Works() {
   const { t } = useLanguage();
 
@@ -49,142 +59,36 @@ export default function Works() {
 
           <section className="space-y-16">
             
-            {/* FUGA NOIR */}
-            <article className="border-t border-gray-300 pt-6">
-              <h2 className="font-bold text-base mb-6"><Link href="/works/fuga-noir" className="underline hover:text-gray-600">{t.works.fuga_noir.title}</Link></h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[3/2] bg-gray-100">
-                    <Image src="/images/Fuga_Noir.png" alt="FUGA NOIR" fill className="object-cover border border-gray-200" />
-                  </div>
-                  <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <p className="mb-6">{t.works.fuga_noir.desc}</p>
-                  <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>{t.works.labels.year} {t.works.fuga_noir.year}</p>
-                    <p>{t.works.labels.status} {t.works.fuga_noir.status}</p>
-                    <p>{t.works.labels.format} {t.works.fuga_noir.format}</p>
-                    <p>{t.works.labels.materials} {t.works.fuga_noir.materials}</p>
-                    <p>{t.works.labels.territory} {t.works.fuga_noir.territory}</p>
-                  </div>
-                </div>
-              </div>
-            </article>
+            {worksList.map((work) => {
+              const item = t.works.items[work.id as keyof typeof t.works.items];
+              if (!item) return null;
 
-            {/* CEDENCIA PLEURO */}
-            <article className="border-t border-gray-300 pt-6">
-              <h2 className="font-bold text-base mb-6"><Link href="/works/cedencia-pleuro" className="underline hover:text-gray-600">{t.works.cedencia_pleuro.title}</Link></h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[3/2] bg-gray-100">
-                    <Image src="/images/Cedencia_Pleuro_2.png" alt="CEDENCIA PLEURO" fill className="object-cover border border-gray-200" />
+              return (
+                <article key={work.id} className="border-t border-gray-300 pt-6">
+                  <h2 className="font-bold text-base mb-6">
+                    <Link href={`/works/${work.id.replace('_', '-')}`} className="underline hover:text-gray-600">
+                      {item.title}
+                    </Link>
+                  </h2>
+                  <div className="flex flex-col md:flex-row gap-8 items-start">
+                    <div className="w-full md:w-1/2">
+                      <div className="relative aspect-[3/2] bg-[#e5e5e5] flex items-center justify-center border border-gray-200">
+                        {work.image ? (
+                          <Image src={work.image} alt={item.title} fill className="object-cover" />
+                        ) : (
+                          <span className="text-xs text-gray-400 tracking-widest uppercase">Imagen en proceso</span>
+                        )}
+                      </div>
+                      <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
+                    </div>
+                    <div className="w-full md:w-1/2">
+                      <p className="mb-4 italic text-gray-800">{item.subtitle}</p>
+                      <p className="mb-6">{item.desc}</p>
+                    </div>
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <p className="mb-6">{t.works.cedencia_pleuro.desc}</p>
-                  <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>{t.works.labels.year} {t.works.cedencia_pleuro.year}</p>
-                    <p>{t.works.labels.status} {t.works.cedencia_pleuro.status}</p>
-                    <p>{t.works.labels.format} {t.works.cedencia_pleuro.format}</p>
-                    <p>{t.works.labels.materials} {t.works.cedencia_pleuro.materials}</p>
-                    <p>{t.works.labels.territory} {t.works.cedencia_pleuro.territory}</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            {/* TRAZA CRONO */}
-            <article className="border-t border-gray-300 pt-6">
-              <h2 className="font-bold text-base mb-6"><Link href="/works/traza-crono" className="underline hover:text-gray-600">{t.works.traza_crono.title}</Link></h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[3/2] bg-gray-100">
-                    <Image src="/images/Traza_Crono_2.png" alt="TRAZA CRONO" fill className="object-cover border border-gray-200" />
-                  </div>
-                  <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <p className="mb-6">{t.works.traza_crono.desc}</p>
-                  <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>{t.works.labels.year} {t.works.traza_crono.year}</p>
-                    <p>{t.works.labels.status} {t.works.traza_crono.status}</p>
-                    <p>{t.works.labels.format} {t.works.traza_crono.format}</p>
-                    <p>{t.works.labels.materials} {t.works.traza_crono.materials}</p>
-                    <p>{t.works.labels.territory} {t.works.traza_crono.territory}</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            {/* TIZNE PRIMAL */}
-            <article className="border-t border-gray-300 pt-6">
-              <h2 className="font-bold text-base mb-6"><Link href="/works/tizne-primal" className="underline hover:text-gray-600">{t.works.tizne_primal.title}</Link></h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[3/2] bg-gray-100">
-                    <Image src="/images/Tizne_Primal.png" alt="TIZNE PRIMAL" fill className="object-cover border border-gray-200" />
-                  </div>
-                  <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <p className="mb-6">{t.works.tizne_primal.desc}</p>
-                  <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>{t.works.labels.year} {t.works.tizne_primal.year}</p>
-                    <p>{t.works.labels.status} {t.works.tizne_primal.status}</p>
-                    <p>{t.works.labels.format} {t.works.tizne_primal.format}</p>
-                    <p>{t.works.labels.materials} {t.works.tizne_primal.materials}</p>
-                    <p>{t.works.labels.territory} {t.works.tizne_primal.territory}</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            {/* PERSISTEM */}
-            <article className="border-t border-gray-300 pt-6">
-              <h2 className="font-bold text-base mb-6"><Link href="/works/persistem" className="underline hover:text-gray-600">{t.works.persistem.title}</Link></h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[3/2] bg-gray-100">
-                    <Image src="/images/PERSISTEM.png" alt="PERSISTEM" fill className="object-cover border border-gray-200" />
-                  </div>
-                  <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <p className="mb-6">{t.works.persistem.desc}</p>
-                  <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>{t.works.labels.year} {t.works.persistem.year}</p>
-                    <p>{t.works.labels.status} {t.works.persistem.status}</p>
-                    <p>{t.works.labels.format} {t.works.persistem.format}</p>
-                    <p>{t.works.labels.materials} {t.works.persistem.materials}</p>
-                    <p>{t.works.labels.territory} {t.works.persistem.territory}</p>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            {/* TRAMAS INESTABLES */}
-            <article className="border-t border-gray-300 pt-6">
-              <h2 className="font-bold text-base mb-6"><Link href="/works/tramas-inestables" className="underline hover:text-gray-600">{t.works.tramas_inestables.title}</Link></h2>
-              <div className="flex flex-col md:flex-row gap-8 items-start">
-                <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[3/2] bg-gray-100">
-                    <Image src="/images/Tramas_Inestables_2.png" alt="TRAMAS INESTABLES" fill className="object-cover border border-gray-200" />
-                  </div>
-                  <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                </div>
-                <div className="w-full md:w-1/2">
-                  <p className="mb-6">{t.works.tramas_inestables.desc}</p>
-                  <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>{t.works.labels.year} {t.works.tramas_inestables.year}</p>
-                    <p>{t.works.labels.status} {t.works.tramas_inestables.status}</p>
-                    <p>{t.works.labels.format} {t.works.tramas_inestables.format}</p>
-                    <p>{t.works.labels.materials} {t.works.tramas_inestables.materials}</p>
-                  </div>
-                </div>
-              </div>
-            </article>
+                </article>
+              );
+            })}
 
           </section>
         </main>

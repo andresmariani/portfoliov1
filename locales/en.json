@@ -25,66 +25,42 @@
   "works": {
     "subtitle": "Selection of recent projects and research.",
     "ref_viz": "Reference visualization",
-    "labels": {
-      "year": "Year:",
-      "status": "Status:",
-      "format": "Format:",
-      "materials": "Materials:",
-      "territory": "Territory:"
-    },
-    "fuga_noir": {
-      "title": "FUGA NOIR",
-      "desc": "FUGA NOIR is a sculptural device built with clays, sediments, and water from the Paraná river literal region. The piece slowly exudes a dark fluid from a single vanishing point while a system of piezoelectric microphones captures the internal vibration produced by the falling drops and translates it into low frequencies perceptible in the spectator's body. The work functions as an active system of irreversible loss: something continuously leaves the sculptural body, and that subtraction becomes visible, sonorous, and physical at the same time.",
-      "year": "2024–2025",
-      "status": "Research and prototyping",
-      "format": "Sculptural and sound installation",
-      "materials": "Sediments, clays, fluids, hydraulic system, sound",
-      "territory": "Paraná River literal region / Arga River"
-    },
-    "cedencia_pleuro": {
-      "title": "CEDENCIA PLEURO",
-      "desc": "CEDENCIA PLEURO is a living installation developed from active mycelium of Pleurotus ostreatus and water from the Paraná river. The work investigates relationships between fluvial foam, surface chemistry, and interstitial behavior through a system where water is retained within a mycelial network in a vegetative phase. The presence of the spectator alters that geometry and triggers the appearance and collapse of foam on the surface of the piece. The project is developed in consultation with specialists in mycology and materials from the Santa Fe literal region.",
-      "year": "In development, 2025",
-      "status": "Research in development",
-      "format": "Material research and experimental installation",
-      "materials": "Mycelium, Paraná river water, agricultural fibers, audiovisual record",
-      "territory": "La Plata Basin / Santa Fe literal region"
-    },
-    "traza_crono": {
-      "title": "TRAZA CRONO",
-      "desc": "TRAZA CRONO is an atmospheric inscription surface built from HEPA and fiberglass filters exposed for nine months at different points in the Santa Fe literal region during the presence season of the brown-chested martin (Progne tapera). The work does not capture the air in real time: it arrives at the gallery as an already constructed material archive. Soot, pollen, vegetable fibers, and mineral residues accumulate on each module as a direct record of a specific place and period. The grid does not represent the territory: it physically contains it.",
-      "year": "Ongoing research, 2024–2025",
-      "status": "Conceptualization and visualization",
-      "format": "Sculptural installation",
-      "materials": "Sediments, mineral surfaces, physical record",
-      "territory": "Paraná River literal region"
-    },
-    "tizne_primal": {
-      "title": "TIZNE PRIMAL",
-      "desc": "TIZNE PRIMAL consists of a mural intervention built from wood carbonized by direct transmission from a fragment affected by an atmospheric electrical discharge. A compressed black mass occupies a rectangular niche excavated in the wall, as if the architecture contained under pressure the material persistence of a disappeared event. The work does not represent the discharge: it works with its physical inscription in matter. Geographic coordinates and date of impact appear engraved in bas-relief under the intervened wall.",
-      "year": "In development, 2025",
-      "status": "Research and visualization",
-      "format": "Material installation",
-      "materials": "Soot, mineral surfaces, combustion residues",
-      "territory": "Santa Fe literal region"
-    },
-    "persistem": {
-      "title": "PERSISTEM",
-      "desc": "PERSISTEM is an installation built from an industrial cement tube that emerges horizontally from the gallery floor as if it had always been there. The interior is painted matte oxide red and contains a technical-symbolic inscription engraved at the exact threshold where the structure disappears under the ground. The work takes references from foundational deposits and hydraulic archaeologies to construct a device where the spectator perceives material consequences without ever accessing the origin of the system.",
-      "year": "2024–2025",
-      "status": "Conceptual research",
-      "format": "Sculptural installation",
-      "materials": "Industrial cement tube, matte red paint, engraved inscription, floor intervention.",
-      "territory": "Paraná River literal region"
-    },
-    "tramas_inestables": {
-      "title": "TRAMAS INESTABLES",
-      "desc": "TRAMAS INESTABLES is an audiovisual installation that articulates generative artificial intelligence, video synthesis, and handmade textile surfaces. The project starts from images produced with open-source models and subsequently processed through Hydra Video Synth, where the code introduces displacements, noise, feedback, and progressive degradations onto the original image. The resulting material is projected onto artisanal felt structures, transforming the textile surface into an active body that absorbs, distors, and reorganizes the projection.",
-      "year": "2025",
-      "status": "Presented project",
-      "format": "Audiovisual installation",
-      "materials": "Generative AI, Hydra Video Synth, artisanal felt, projection",
-      "territory": ""
+    "items": {
+      "tizne_primal": {
+        "title": "TIZNE PRIMAL",
+        "subtitle": "Carbonized wood by real discharge — mural installation",
+        "desc": "Belongs to CHARQUEMAL. A rectangular niche made in the wall contains a compressed mass of carbonized branches. The carbonization is not a pigmentation: an original fragment affected by an atmospheric electrical discharge —the Mother Wood— transmitted the transformation to the rest of the mass by contact. The work operates in the past perfect: the force is no longer there, but its trace persists as an active condition in the matter. The bas-relief engraving below the niche records the coordinates and date of the event. The spectator is situated in front of a volume contained under pressure, without contemplative distance."
+      },
+      "persistem": {
+        "title": "PERSISTEM",
+        "subtitle": "Industrial cement tube — floor installation",
+        "desc": "Belongs to CHARQUEMAL. A horizontal cement tube emerges from the gallery floor as if the building had been constructed on top of it. The interior is painted in oxide red. At the threshold where the tube disappears under the ground, a hybrid inscription —hydraulic elevation, diameter, stratigraphic unit— is engraved and continues buried. The work operates in the archaeological past: it confronts the spectator with the consequence of a restitutive gesture whose cause is beyond perception. There is no pedestal. The experience is not of recognition but of suspicion."
+      },
+      "canal_ombrosc": {
+        "title": "CANAL OMBROSC",
+        "subtitle": "Artisanal blown glass — unique object",
+        "desc": "Belongs to CHARQUEMAL. An 80–90 cm blown glass object rests directly on the floor on its own morphology. Its hybrid shape —between a tense sphere and an atmospheric observation kite balloon— arises from technical devices that never existed as standard. Produced in collaboration with Cristalería San Carlos (Santa Fe), the piece preserves in its bubbled surface and thickness variations the record of heat and pulmonary pressure from the blowing process. It operates in a present of unrealized technical possibility. Metal tensioners anchor it to the floor without hiding its condition of artifice."
+      },
+      "fuga_noir": {
+        "title": "FUGA NOIR",
+        "subtitle": "Paraná clays, hydraulic system and sound — floor installation",
+        "desc": "Belongs to CHARQUEMAL. An asymmetrical volume of clays and sediments from the literal region exudes thickened Paraná water from a single point on its dense surface. The drop impacts the floor; piezoelectric microphones translate the vibration into a low-frequency sound field (20–60 Hz) that is transmitted through the floor to the spectator's body. The work operates in a continuous present of loss: something is subtracted from the object in real time, and that subtraction is inscribed first as vibration rather than a visible trace. The visible maintenance —fluid replacement— is part of the piece."
+      },
+      "traza_crono": {
+        "title": "TRAZA CRONO",
+        "subtitle": "HEPA filters with real atmospheric sediment — mural grid",
+        "desc": "Belongs to CHARQUEMAL. A grid of HEPA filters arrives at the gallery with nine months of air from the Santa Fe literal region accumulated on its surface. The filters were installed during the entire season of the brown-chested martin (Progne tapera). The distribution of the modules in the grid —X axis: geographic location from west to east; Y axis: temporal sequence from September to March— is fixed. What varies is the depth of each module (0–40 mm), dictated by the mass of sediment it captured. The work operates in an accumulated past: it does not capture in real time, it is an archive. Grazing illumination reveals the sedimentary topography."
+      },
+      "cedencia_pleuro": {
+        "title": "CEDENCIA PLEURO",
+        "subtitle": "Living mycelium of Pleurotus ostreatus — wall installation",
+        "desc": "Belongs to CHARQUEMAL. A volume of mycelium in active vegetative phase on agricultural fibers from the literal region emerges from the union of two walls. The mycelium secretes hydrophobins —proteins that modify the surface tension of water. Paraná water, introduced by capillarity, is retained in the interstices. The presence of the spectator alters that geometry: the foam emerges and collapses in seconds, leaving a wet trace. The work operates in an activation present: the spectator is not late —they trigger the event and consume it simultaneously. It is the opposite pole to RASVNTE: one carries something to the limit of contact and releases it in the presence of the spectator; the other disperses all contact before it becomes a record."
+      },
+      "rasvnte": {
+        "title": "RASVNTE",
+        "subtitle": "Matte anodized aluminum — suspended installation",
+        "desc": "Belongs to CHARQUEMAL. It is the limit case of the set: the system that structurally cannot carry anything. An inverted architectural ramp suspended from the ceiling, made of matte anodized aluminum, covered by a gradient of spines organized by atmospheric layers (Troposphere, Stratosphere, Mesosphere). The surface of discontinuous micro-contacts fragments any flow without blocking it. No contact has enough extension to become support or inscription. The work operates in a continuous present of traceless friction: its entire mechanism is exposed in real time. While CEDENCIA PLEURO releases contact, RASVNTE disperses it before it occurs. The question that runs through CHARQUEMAL —what persists when the origin has disappeared— finds its most extreme answer here: nothing persists. Only transit."
+      }
     }
   },
   "research_page": {

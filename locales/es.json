@@ -25,66 +25,42 @@
   "works": {
     "subtitle": "Selección de proyectos e investigaciones recientes.",
     "ref_viz": "Visualización de referencia",
-    "labels": {
-      "year": "Año:",
-      "status": "Estado:",
-      "format": "Formato:",
-      "materials": "Materiales:",
-      "territory": "Territorio:"
-    },
-    "fuga_noir": {
-      "title": "FUGA NOIR",
-      "desc": "FUGA NOIR es un dispositivo escultórico construido con arcillas, sedimentos y agua del litoral del Paraná. La pieza exuda lentamente un fluido oscuro desde un único punto de fuga mientras un sistema de micrófonos piezoeléctricos captura la vibración interna producida por la caída de las gotas y la traduce en bajas frecuencias perceptibles en el cuerpo del espectador. La obra funciona como un sistema activo de pérdida irreversible: algo abandona continuamente el cuerpo escultórico y esa sustracción se vuelve visible, sonora y física al mismo tiempo.",
-      "year": "2024–2025",
-      "status": "Investigación y prototipado",
-      "format": "Instalación escultórica y sonora",
-      "materials": "Sedimentos, arcillas, fluidos, sistema hidráulico, sonido",
-      "territory": "Litoral del Paraná / Río Arga"
-    },
-    "cedencia_pleuro": {
-      "title": "CEDENCIA PLEURO",
-      "desc": "CEDENCIA PLEURO es una instalación viva desarrollada a partir de micelio activo de Pleurotus ostreatus y agua del Paraná. La obra investiga relaciones entre espuma fluvial, tensión superficial y comportamiento intersticial mediante un sistema donde el agua queda retenida dentro de una red micelial en fase vegetativa. La presencia del espectador altera esa geometría y desencadena la aparición y el colapso de espuma sobre la superficie de la pieza. El proyecto se desarrolla en consulta con especialistas en micología y materiales del litoral santafesino.",
-      "year": "En desarrollo, 2025",
-      "status": "Investigación en desarrollo",
-      "format": "Investigación material e instalación experimental",
-      "materials": "Micelio, agua del Paraná, fibras agrícolas, registro audiovisual",
-      "territory": "Cuenca del Plata / Litoral santafesino"
-    },
-    "traza_crono": {
-      "title": "TRAZA CRONO",
-      "desc": "TRAZA CRONO es una superficie de inscripción atmosférica construida a partir de filtros HEPA y fibra de vidrio expuestos durante nueve meses en distintos puntos del litoral santafesino durante la temporada de presencia de la golondrina parda (Progne tapera). La obra no captura el aire en tiempo real: llega a la sala como un archivo material ya construido. Hollín, polen, fibras vegetales y residuos minerales quedan acumulados sobre cada módulo como registro directo de un lugar y un período específicos. La retícula no representa el territorio: lo contiene físicamente.",
-      "year": "Investigación en curso, 2024–2025",
-      "status": "Conceptualización y visualización",
-      "format": "Instalación escultórica",
-      "materials": "Sedimentos, superficies minerales, registro físico",
-      "territory": "Litoral del Paraná"
-    },
-    "tizne_primal": {
-      "title": "TIZNE PRIMAL",
-      "desc": "TIZNE PRIMAL consiste en una intervención mural construida a partir de madera carbonizada por transmisión directa desde un fragmento afectado por una descarga eléctrica atmosférica. Una masa negra comprimida ocupa un nicho rectangular excavado en el muro, como si la arquitectura contuviera bajo presión la persistencia material de un evento ya desaparecido. La obra no representa la descarga: trabaja con su inscripción física en la materia. Coordenadas geográficas y fecha del impacto aparecen grabadas en bajorrelieve bajo el muro intervenido.",
-      "year": "En desarrollo, 2025",
-      "status": "Investigación y visualización",
-      "format": "Instalación material",
-      "materials": "Tizne, superficies minerales, residuos de combustión",
-      "territory": "Litoral santafesino"
-    },
-    "persistem": {
-      "title": "PERSISTEM",
-      "desc": "PERSISTEM es una instalación construida a partir de un tubo de cemento industrial que emerge horizontalmente desde el piso de la sala como si siempre hubiera estado allí. El interior está pintado de rojo óxido mate y contiene una inscripción técnico-simbólica grabada en el umbral exacto donde la estructura desaparece bajo el suelo. La obra toma referencias de depósitos fundacionales y arqueologías hidráulicas para construir un dispositivo donde el espectador percibe consecuencias materiales sin acceder nunca al origen del sistema.",
-      "year": "2024–2025",
-      "status": "Investigación conceptual",
-      "format": "Instalación escultórica",
-      "materials": "Tubo de cemento industrial, pintura roja mate, inscripción grabada, intervención de piso.",
-      "territory": "Litoral del Paraná"
-    },
-    "tramas_inestables": {
-      "title": "TRAMAS INESTABLES",
-      "desc": "TRAMAS INESTABLES es una instalación audiovisual que articula inteligencia artificial generativa, síntesis de video y superficies textiles realizadas manualmente. El proyecto parte de imágenes producidas con modelos de código abierto y posteriormente procesadas mediante Hydra Video Synth, donde el código introduce desplazamientos, ruido, retroalimentaciones y degradaciones progresivas sobre la imagen original. El material resultante se proyecta sobre estructuras de fieltro artesanal, transformando la superficie textil en un cuerpo activo que absorbe, distorsiona y reorganiza la proyección.",
-      "year": "2025",
-      "status": "Proyecto presentado",
-      "format": "Instalación audiovisual",
-      "materials": "IA generativa, Hydra Video Synth, fieltro artesanal, proyección",
-      "territory": ""
+    "items": {
+      "tizne_primal": {
+        "title": "TIZNE PRIMAL",
+        "subtitle": "Madera carbonizada por descarga real — instalación mural",
+        "desc": "Pertenece a CHARQUEMAL. Un nicho rectangular practicado en el muro contiene una masa comprimida de ramas carbonizadas. La carbonización no es una pigmentación: un fragmento original afectado por una descarga eléctrica atmosférica —la Madera Madre— transmitió la transformación al resto de la masa por contacto. La obra opera en pasado perfecto: la fuerza ya no está, pero su huella persiste como condición activa en la materia. El grabado en bajorrelieve bajo el nicho registra coordenadas y fecha del evento. El espectador se sitúa frente a un volumen contenido bajo presión, sin distancia contemplativa."
+      },
+      "persistem": {
+        "title": "PERSISTEM",
+        "subtitle": "Tubo de cemento industrial — instalación en piso",
+        "desc": "Pertenece a CHARQUEMAL. Un tubo de cemento horizontal emerge del piso de la sala como si el edificio se hubiera construido encima. El interior está pintado de rojo óxido. En el umbral donde el tubo desaparece bajo el suelo, una inscripción híbrida —cota hidráulica, diámetro, unidad estratigráfica— está grabada y continúa enterrada. La obra opera en pasado arqueológico: enfrenta al espectador a la consecuencia de un gesto restitutivo cuya causa está fuera de la percepción. No hay pedestal. La experiencia no es de reconocimiento sino de sospecha."
+      },
+      "canal_ombrosc": {
+        "title": "CANAL OMBROSC",
+        "subtitle": "Vidrio soplado artesanal — objeto único",
+        "desc": "Pertenece a CHARQUEMAL. Un objeto de vidrio soplado de 80–90 cm descansa directamente en el suelo sobre su propia morfología. Su forma híbrida —entre esfera tensa y globo cometa de observación atmosférica— surge de dispositivos técnicos que nunca llegaron a existir como estándar. Producido en colaboración con Cristalería San Carlos (Santa Fe), la pieza conserva en su superficie burbujeada y sus variaciones de espesor el registro del calor y la presión pulmonar del soplado. Opera en presente de posibilidad técnica no realizada. Tensores de metal la anclan al suelo sin ocultar su condición de artificio."
+      },
+      "fuga_noir": {
+        "title": "FUGA NOIR",
+        "subtitle": "Arcillas del Paraná, sistema hidráulico y sonido — instalación en piso",
+        "desc": "Pertenece a CHARQUEMAL. Un volumen asimétrico de arcillas y sedimentos del litoral exuda agua del Paraná espesada por un punto único en su superficie densa. La gota impacta el suelo; micrófonos piezoeléctricos traducen la vibración en un campo sonoro de bajas frecuencias (20–60 Hz) que se transmite por el piso al cuerpo del espectador. La obra opera en presente continuo de pérdida: algo se sustrae del objeto en tiempo real, y esa sustracción se inscribe antes como vibración que como rastro visible. El mantenimiento visible —reposición de fluido— forma parte de la pieza."
+      },
+      "traza_crono": {
+        "title": "TRAZA CRONO",
+        "subtitle": "Filtros HEPA con sedimento atmosférico real — retícula mural",
+        "desc": "Pertenece a CHARQUEMAL. Una retícula de filtros HEPA llega a la sala con nueve meses de aire del litoral santafesino acumulado en su superficie. Los filtros fueron instalados durante la temporada completa de la golondrina parda (Progne tapera). La distribución de los módulos en la retícula —eje X: locación geográfica de oeste a este; eje Y: secuencia temporal de septiembre a marzo— es fija. Lo que varía es la profundidad de cada módulo (0–40 mm), dictada por la masa de sedimento que capturó. La obra opera en pasado acumulado: no captura en tiempo real, es un archivo. La iluminación rasante revela la topografía sedimentaria."
+      },
+      "cedencia_pleuro": {
+        "title": "CEDENCIA PLEURO",
+        "subtitle": "Micelio vivo de Pleurotus ostreatus — instalación en pared",
+        "desc": "Pertenece a CHARQUEMAL. Un volumen de micelio en fase vegetativa activa sobre fibras agrícolas del litoral emerge de la unión de dos paredes. El micelio segrega hidrofobinas —proteínas que modifican la tensión superficial del agua. El agua del Paraná, introducida por capilaridad, queda retenida en los intersticios. La presencia del espectador altera esa geometría: la espuma emerge y colapsa en segundos, dejando un rastro húmedo. La obra opera en presente de activación: el espectador no llega tarde —desencadena el evento y lo consume simultáneamente. Es el polo opuesto a RASVNTE: una porta algo hasta el límite del contacto y lo libera en presencia del espectador; la otra dispersa todo contacto antes de que se convierta en registro."
+      },
+      "rasvnte": {
+        "title": "RASVNTE",
+        "subtitle": "Aluminio anodizado mate — instalación suspendida",
+        "desc": "Pertenece a CHARQUEMAL. Es el caso límite del conjunto: el sistema que estructuralmente no puede portar nada. Una rampa arquitectónica invertida suspendida del techo, de aluminio anodizado mate, cubierta por un gradiente de espinas organizado por capas atmosféricas (Tropósfera, Estratósfera, Mesósfera). La superficie de micro-contactos discontinuos fragmenta cualquier flujo sin bloquearlo. Ningún contacto tiene extensión suficiente para convertirse en apoyo o inscripción. La obra opera en presente continuo de fricción sin huella: todo su mecanismo está expuesto en tiempo real. Mientras CEDENCIA PLEURO libera el contacto, RASVNTE lo dispersa antes de que se produzca. La pregunta que atraviesa CHARQUEMAL —qué persiste cuando el origen ha desaparecido— encuentra aquí su respuesta más extrema: nada persiste. Solo el tránsito."
+      }
     }
   },
   "research_page": {
