@@ -7,11 +7,11 @@ import { useLanguage } from "../../context/LanguageContext";
 const worksList = [
   { id: "tizne_primal", image: "/images/Tizne_Primal.png" },
   { id: "persistem", image: "/images/PERSISTEM.png" },
-  { id: "canal_ombrosc", image: "" },
+  { id: "canal_ombrosc", image: "/images/CANAL OMBROSC.png" },
   { id: "fuga_noir", image: "/images/Fuga_Noir.png" },
   { id: "traza_crono", image: "/images/Traza_Crono_2.png" },
   { id: "cedencia_pleuro", image: "/images/Cedencia_Pleuro_2.png" },
-  { id: "rasvnte", image: "" },
+  { id: "rasvnte", image: "/images/RASVNTE.png" },
   { id: "tramas_inestables", image: "/images/Tramas_Inestables_2.png" },
 ];
 
