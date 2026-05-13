@@ -61,7 +61,7 @@ export default function Works() {
           <section className="space-y-16">
             
             {worksList.map((work) => {
-              const item = t.works.items[work.id as keyof typeof t.works.items];
+              const item = (t.works.items as any)[work.id];
               if (!item) return null;
 
               return (
