@@ -9,7 +9,7 @@ export default function Works() {
       <header className="mb-12 border-b border-black pb-4">
         <h1 className="text-2xl font-bold mb-2">Andrés Mariani Bergoen</h1>
         <p className="text-sm italic">Artista visual e investigador material. Santa Fe, Argentina.</p>
-        <p className="text-xs mt-2 text-gray-600">Fundado 2026</p>
+        <p className="text-xs mt-2 text-gray-600">31°38′S 60°42′W</p>
       </header>
 
       {/* Main Content Layout */}
@@ -22,7 +22,6 @@ export default function Works() {
             <li><Link href="/statement" className="hover:text-gray-600">Statement</Link></li>
             <li><Link href="/works" className="hover:text-gray-600">Works / Obras</Link></li>
             <li><Link href="/research" className="hover:text-gray-600">Research / Investigación</Link></li>
-            <li><Link href="/audiovisual" className="hover:text-gray-600">Audiovisual Archive</Link></li>
             <li><Link href="/cv" className="hover:text-gray-600">Curriculum Vitae</Link></li>
             <li><Link href="/contact" className="hover:text-gray-600">Contact / Inquiries</Link></li>
           </ul>
@@ -52,7 +51,7 @@ export default function Works() {
                   <p className="mb-4">La obra funciona como un sistema de exudación continua: una estructura material libera lentamente un fluido mientras traduce ese proceso en vibración sonora de baja frecuencia perceptible en el cuerpo del espectador.</p>
                   <p className="mb-6">Desarrollada dentro de CHARQUEMAL, la pieza propone una relación física con procesos mínimos de desgaste, filtración y transformación lenta.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>Año: 2026–presente</p>
+                    <p>Año: 2024–2025</p>
                     <p>Estado: Investigación y prototipado</p>
                     <p>Formato: Instalación escultórica y sonora</p>
                     <p>Materiales: Sedimentos, arcillas, fluidos, sistema hidráulico, sonido</p>
@@ -77,7 +76,7 @@ export default function Works() {
                   <p className="mb-4">El proyecto parte de la observación de la espuma generada por el río en zonas de turbulencia y propone investigar posibles vínculos formales y materiales con sistemas miceliales capaces de modificar la relación entre agua y aire mediante proteínas tensioactivas.</p>
                   <p className="mb-6">La investigación se desarrolla como un proceso abierto entre práctica artística, micología y saberes territoriales del río.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>Año: 2026–presente</p>
+                    <p>Año: En desarrollo, 2025</p>
                     <p>Estado: Investigación en desarrollo</p>
                     <p>Formato: Investigación material e instalación experimental</p>
                     <p>Materiales: Micelio, agua del Paraná, fibras agrícolas, registro audiovisual</p>
@@ -101,7 +100,7 @@ export default function Works() {
                   <p className="mb-4">TRAZA CRONO investiga inscripción temporal y sedimentación material mediante superficies capaces de registrar desplazamientos, presión, erosión y permanencia.</p>
                   <p className="mb-6">La obra trabaja sobre la posibilidad de que la materia funcione simultáneamente como archivo físico y como proceso activo de transformación continua.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>Año: 2026–presente</p>
+                    <p>Año: Investigación en curso, 2024–2025</p>
                     <p>Estado: Conceptualización y visualización</p>
                     <p>Formato: Instalación escultórica</p>
                     <p>Materiales: Sedimentos, superficies minerales, registro físico</p>
@@ -125,7 +124,7 @@ export default function Works() {
                   <p className="mb-4">TIZNE PRIMAL explora relaciones entre combustión, residuo y oscuridad como formas materiales de inscripción.</p>
                   <p className="mb-6">La obra trabaja con tizne y deposición atmosférica para producir superficies donde la acumulación lenta transforma la percepción del espacio y la materia.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>Año: 2026–presente</p>
+                    <p>Año: En desarrollo, 2025</p>
                     <p>Estado: Investigación y visualización</p>
                     <p>Formato: Instalación material</p>
                     <p>Materiales: Tizne, superficies minerales, residuos de combustión</p>
@@ -149,7 +148,7 @@ export default function Works() {
                   <p className="mb-4">PERSISTEM investiga formas de permanencia residual y comportamiento material en sistemas sometidos a desgaste lento.</p>
                   <p className="mb-6">La pieza propone estructuras donde acumulación, vibración y erosión funcionan simultáneamente como construcción y pérdida.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
-                    <p>Año: 2026–presente</p>
+                    <p>Año: 2024–2025</p>
                     <p>Estado: Investigación conceptual</p>
                     <p>Formato: Instalación escultórica</p>
                     <p>Materiales: Sedimentos, estructuras resonantes, sistemas de tensión</p>
