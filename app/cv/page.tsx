@@ -34,6 +34,26 @@ export default function CV() {
         {/* Columna Derecha: CV */}
         <main className="flex-1 max-w-2xl text-sm leading-relaxed space-y-12">
           
+          {/* Descargas CV */}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 -mb-4">
+            <a 
+              href="/cv/CV_Mariani_Bergoen_ESP.pdf" 
+              download 
+              className="inline-flex items-center text-xs tracking-wider hover:text-gray-500 transition-colors group w-fit"
+            >
+              <span className="border-b border-black group-hover:border-gray-500 pb-0.5">{t.cv.download_es}</span>
+              <span className="ml-2 text-[10px] opacity-70">↓</span>
+            </a>
+            <a 
+              href="/cv/CV_Mariani_Bergoen_ENG.pdf" 
+              download 
+              className="inline-flex items-center text-xs tracking-wider hover:text-gray-500 transition-colors group w-fit"
+            >
+              <span className="border-b border-black group-hover:border-gray-500 pb-0.5">{t.cv.download_en}</span>
+              <span className="ml-2 text-[10px] opacity-70">↓</span>
+            </a>
+          </div>
+
           <section>
             <h2 className="font-bold uppercase text-xs mb-4">{t.cv.sections.bio}</h2>
             <p>{t.cv.bio_text}</p>

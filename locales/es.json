@@ -95,6 +95,8 @@
     "p3": "Los proyectos funcionan como sistemas abiertos en distintas fases de investigación, prototipado y producción."
   },
   "cv": {
+    "download_es": "Descargar CV (ESP)",
+    "download_en": "Download CV (ENG)",
     "sections": {
       "bio": "Bio",
       "education": "Formación",

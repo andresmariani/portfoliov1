@@ -95,6 +95,8 @@
     "p3": "The projects function as open systems in different phases of research, prototyping, and production."
   },
   "cv": {
+    "download_es": "Descargar CV (ESP)",
+    "download_en": "Download CV (ENG)",
     "sections": {
       "bio": "Bio",
       "education": "Education",
