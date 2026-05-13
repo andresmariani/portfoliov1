@@ -47,9 +47,7 @@ export default function Works() {
                   <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <p className="mb-4">FUGA NOIR investiga relaciones entre pérdida, vibración y persistencia mediante un dispositivo escultórico e hidráulico construido con sedimentos, humedad y circulación lenta de fluidos oscuros.</p>
-                  <p className="mb-4">La obra funciona como un sistema de exudación continua: una estructura material libera lentamente un fluido mientras traduce ese proceso en vibración sonora de baja frecuencia perceptible en el cuerpo del espectador.</p>
-                  <p className="mb-6">Desarrollada dentro de CHARQUEMAL, la pieza propone una relación física con procesos mínimos de desgaste, filtración y transformación lenta.</p>
+                  <p className="mb-6">FUGA NOIR es un dispositivo escultórico construido con arcillas, sedimentos y agua del litoral del Paraná. La pieza exuda lentamente un fluido oscuro desde un único punto de fuga mientras un sistema de micrófonos piezoeléctricos captura la vibración interna producida por la caída de las gotas y la traduce en bajas frecuencias perceptibles en el cuerpo del espectador. La obra funciona como un sistema activo de pérdida irreversible: algo abandona continuamente el cuerpo escultórico y esa sustracción se vuelve visible, sonora y física al mismo tiempo.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
                     <p>Año: 2024–2025</p>
                     <p>Estado: Investigación y prototipado</p>
@@ -72,9 +70,7 @@ export default function Works() {
                   <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <p className="mb-4">CEDENCIA PLEURO explora relaciones entre espuma fluvial, química de superficie y comportamiento micelial mediante una investigación situada en el litoral del Paraná.</p>
-                  <p className="mb-4">El proyecto parte de la observación de la espuma generada por el río en zonas de turbulencia y propone investigar posibles vínculos formales y materiales con sistemas miceliales capaces de modificar la relación entre agua y aire mediante proteínas tensioactivas.</p>
-                  <p className="mb-6">La investigación se desarrolla como un proceso abierto entre práctica artística, micología y saberes territoriales del río.</p>
+                  <p className="mb-6">CEDENCIA PLEURO es una instalación viva desarrollada a partir de micelio activo de Pleurotus ostreatus y agua del Paraná. La obra investiga relaciones entre espuma fluvial, tensión superficial y comportamiento intersticial mediante un sistema donde el agua queda retenida dentro de una red micelial en fase vegetativa. La presencia del espectador altera esa geometría y desencadena la aparición y el colapso de espuma sobre la superficie de la pieza. El proyecto se desarrolla en consulta con especialistas en micología y materiales del litoral santafesino.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
                     <p>Año: En desarrollo, 2025</p>
                     <p>Estado: Investigación en desarrollo</p>
@@ -97,8 +93,7 @@ export default function Works() {
                   <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <p className="mb-4">TRAZA CRONO investiga inscripción temporal y sedimentación material mediante superficies capaces de registrar desplazamientos, presión, erosión y permanencia.</p>
-                  <p className="mb-6">La obra trabaja sobre la posibilidad de que la materia funcione simultáneamente como archivo físico y como proceso activo de transformación continua.</p>
+                  <p className="mb-6">TRAZA CRONO es una retícula mural de filtros HEPA y fibra de vidrio que acumulan nueve meses de aire del litoral santafesino durante la temporada migratoria de la golondrina parda (Progne tapera). La obra no registra la atmósfera en tiempo real: llega a la sala como archivo material ya construido. La disposición de los módulos deriva de datos de presencia, concentración y desplazamiento migratorio obtenidos en eBird Santa Fe. La retícula no ilustra el comportamiento de la especie: está físicamente organizada por él.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
                     <p>Año: Investigación en curso, 2024–2025</p>
                     <p>Estado: Conceptualización y visualización</p>
@@ -121,8 +116,7 @@ export default function Works() {
                   <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <p className="mb-4">TIZNE PRIMAL explora relaciones entre combustión, residuo y oscuridad como formas materiales de inscripción.</p>
-                  <p className="mb-6">La obra trabaja con tizne y deposición atmosférica para producir superficies donde la acumulación lenta transforma la percepción del espacio y la materia.</p>
+                  <p className="mb-6">TIZNE PRIMAL consiste en una intervención mural construida a partir de madera carbonizada por transmisión directa desde un fragmento afectado por una descarga eléctrica atmosférica. Una masa negra comprimida ocupa un nicho rectangular excavado en el muro, como si la arquitectura contuviera bajo presión la persistencia material de un evento ya desaparecido. La obra no representa la descarga: trabaja con su inscripción física en la materia. Coordenadas geográficas y fecha del impacto aparecen grabadas en bajorrelieve bajo el muro intervenido.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
                     <p>Año: En desarrollo, 2025</p>
                     <p>Estado: Investigación y visualización</p>
@@ -145,8 +139,7 @@ export default function Works() {
                   <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <p className="mb-4">PERSISTEM investiga formas de permanencia residual y comportamiento material en sistemas sometidos a desgaste lento.</p>
-                  <p className="mb-6">La pieza propone estructuras donde acumulación, vibración y erosión funcionan simultáneamente como construcción y pérdida.</p>
+                  <p className="mb-6">PERSISTEM es una instalación construida a partir de un tubo de cemento industrial que emerge horizontalmente desde el piso de la sala como si siempre hubiera estado allí. El interior está pintado de rojo óxido mate y contiene una inscripción técnico-simbólica grabada en el umbral exacto donde la estructura desaparece bajo el suelo. La obra toma referencias de depósitos fundacionales y arqueologías hidráulicas para construir un dispositivo donde el espectador percibe consecuencias materiales sin acceder nunca al origen del sistema.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
                     <p>Año: 2024–2025</p>
                     <p>Estado: Investigación conceptual</p>
@@ -169,8 +162,7 @@ export default function Works() {
                   <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <p className="mb-4">TRAMAS INESTABLES es una instalación audiovisual que articula inteligencia artificial generativa, síntesis de video y superficies textiles artesanales.</p>
-                  <p className="mb-6">El proyecto explora relaciones entre imagen algorítmica, degradación digital y materialidad orgánica mediante proyecciones procesadas sobre estructuras de fieltro realizadas manualmente.</p>
+                  <p className="mb-6">TRAMAS INESTABLES es una instalación audiovisual que articula inteligencia artificial generativa, síntesis de video y superficies textiles realizadas manualmente. El proyecto parte de imágenes producidas con modelos de código abierto y posteriormente procesadas mediante Hydra Video Synth, donde el código introduce desplazamientos, ruido, retroalimentaciones y degradaciones progresivas sobre la imagen original. El material resultante se proyecta sobre estructuras de fieltro artesanal, transformando la superficie textil en un cuerpo activo que absorbe, distorsiona y reorganiza la proyección.</p>
                   <div className="text-xs text-gray-600 space-y-1 border-t border-dotted border-gray-300 pt-4">
                     <p>Año: 2025</p>
                     <p>Estado: Proyecto presentado</p>
