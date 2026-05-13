@@ -5,12 +5,12 @@
     "coords": "31°38′S 60°42′W"
   },
   "nav": {
-    "home": "Home",
+    "home": "Inicio",
     "statement": "Statement",
-    "works": "Works / Obras",
-    "research": "Research / Investigación",
+    "works": "Obras",
+    "research": "Investigación",
     "cv": "Curriculum Vitae",
-    "contact": "Contact / Inquiries"
+    "contact": "Contacto"
   },
   "home": {
     "bio": "Andrés Mariani Bergoen es artista visual e investigador material radicado en Santa Fe, Argentina. Su práctica se sitúa en el cruce entre instalación, escultura, sonido y experimentación audiovisual, con un anclaje territorial específico en el litoral del Paraná."
@@ -144,7 +144,7 @@
     "awards_text": "Segundo puesto internacional — Youth Video Competition S4D Korea (2023), Second Summit for Democracy, Seúl, Corea del Sur."
   },
   "contact": {
-    "title": "CONTACT / INQUIRIES",
+    "title": "CONTACTO",
     "availability": "Actualmente disponible para proyectos de exhibición, investigación material y residencias.",
     "email_label": "Email:",
     "instagram_label": "Instagram:"
