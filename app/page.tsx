@@ -24,7 +24,6 @@ export default function Home() {
           <ul className="space-y-3 text-sm underline decoration-1 underline-offset-2">
             <li><Link href="/statement" className="hover:text-gray-600">{t.nav.statement}</Link></li>
             <li><Link href="/works" className="hover:text-gray-600">{t.nav.works}</Link></li>
-            <li><Link href="/research" className="hover:text-gray-600">{t.nav.research}</Link></li>
             <li><Link href="/cv" className="hover:text-gray-600">{t.nav.cv}</Link></li>
             <li><Link href="/contact" className="hover:text-gray-600">{t.nav.contact}</Link></li>
           </ul>

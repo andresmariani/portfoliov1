@@ -26,7 +26,6 @@ export default function Works() {
             <li><Link href="/" className="hover:text-gray-600">{t.nav.home}</Link></li>
             <li><Link href="/statement" className="hover:text-gray-600">{t.nav.statement}</Link></li>
             <li><Link href="/works" className="hover:text-gray-600">{t.nav.works}</Link></li>
-            <li><Link href="/research" className="hover:text-gray-600">{t.nav.research}</Link></li>
             <li><Link href="/cv" className="hover:text-gray-600">{t.nav.cv}</Link></li>
             <li><Link href="/contact" className="hover:text-gray-600">{t.nav.contact}</Link></li>
           </ul>
@@ -35,6 +34,15 @@ export default function Works() {
         {/* Columna Derecha: Works Index */}
         <main className="flex-1 max-w-4xl text-sm leading-relaxed space-y-12">
           
+          <section className="mb-16">
+            <h2 className="font-bold text-base mb-6">{t.research_page.title}</h2>
+            <div className="space-y-4">
+              <p>{t.research_page.p1}</p>
+              <p>{t.research_page.p2}</p>
+              <p>{t.research_page.p3}</p>
+            </div>
+          </section>
+
           <section>
             <p className="italic mb-8">{t.works.subtitle}</p>
           </section>

@@ -25,7 +25,6 @@ export default function Contact() {
             <li><Link href="/" className="hover:text-gray-600">{t.nav.home}</Link></li>
             <li><Link href="/statement" className="hover:text-gray-600">{t.nav.statement}</Link></li>
             <li><Link href="/works" className="hover:text-gray-600">{t.nav.works}</Link></li>
-            <li><Link href="/research" className="hover:text-gray-600">{t.nav.research}</Link></li>
             <li><Link href="/cv" className="hover:text-gray-600">{t.nav.cv}</Link></li>
             <li><Link href="/contact" className="hover:text-gray-600">{t.nav.contact}</Link></li>
           </ul>
