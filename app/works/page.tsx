@@ -71,9 +71,7 @@ export default function Works() {
                   )}
                   <article className="border-t border-gray-300 pt-6">
                     <h2 className="font-bold text-base mb-6">
-                      <Link href={`/works/${work.id.replace('_', '-')}`} className="underline hover:text-gray-600">
-                        {item.title}
-                      </Link>
+                      {item.title}
                     </h2>
                     <div className="flex flex-col md:flex-row gap-8 items-start">
                       <div className="w-full md:w-1/2">
