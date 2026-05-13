@@ -41,10 +41,10 @@ export default function Works() {
               <h2 className="font-bold text-base mb-6"><Link href="/works/fuga-noir" className="underline hover:text-gray-600">FUGA NOIR</Link></h2>
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[4/3] bg-gray-200">
-                    <Image src="/images/Fuga_Noir.png" alt="FUGA NOIR" fill className="object-cover border border-gray-300" />
+                  <div className="relative aspect-[3/2] bg-gray-100">
+                    <Image src="/images/Fuga_Noir.png" alt="FUGA NOIR" fill className="object-cover border border-gray-200" />
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-2">Visualización de referencia</p>
+                  <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <p className="mb-4">FUGA NOIR investiga relaciones entre pérdida, vibración y persistencia mediante un dispositivo escultórico e hidráulico construido con sedimentos, humedad y circulación lenta de fluidos oscuros.</p>
@@ -66,10 +66,10 @@ export default function Works() {
               <h2 className="font-bold text-base mb-6"><Link href="/works/cedencia-pleuro" className="underline hover:text-gray-600">CEDENCIA PLEURO</Link></h2>
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[4/3] bg-gray-200">
-                    <Image src="/images/CEDENCIA_PLEURO.png" alt="CEDENCIA PLEURO" fill className="object-cover border border-gray-300" />
+                  <div className="relative aspect-[3/2] bg-gray-100">
+                    <Image src="/images/Cedencia_Pleuro_2.png" alt="CEDENCIA PLEURO" fill className="object-cover border border-gray-200" />
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-2">Visualización de referencia</p>
+                  <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <p className="mb-4">CEDENCIA PLEURO explora relaciones entre espuma fluvial, química de superficie y comportamiento micelial mediante una investigación situada en el litoral del Paraná.</p>
@@ -91,10 +91,10 @@ export default function Works() {
               <h2 className="font-bold text-base mb-6"><Link href="/works/traza-crono" className="underline hover:text-gray-600">TRAZA CRONO</Link></h2>
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[4/3] bg-gray-200">
-                    <Image src="/images/Traza_Crono.png" alt="TRAZA CRONO" fill className="object-cover border border-gray-300" />
+                  <div className="relative aspect-[3/2] bg-gray-100">
+                    <Image src="/images/Traza_Crono_2.png" alt="TRAZA CRONO" fill className="object-cover border border-gray-200" />
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-2">Visualización de referencia</p>
+                  <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <p className="mb-4">TRAZA CRONO investiga inscripción temporal y sedimentación material mediante superficies capaces de registrar desplazamientos, presión, erosión y permanencia.</p>
@@ -115,10 +115,10 @@ export default function Works() {
               <h2 className="font-bold text-base mb-6"><Link href="/works/tizne-primal" className="underline hover:text-gray-600">TIZNE PRIMAL</Link></h2>
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[4/3] bg-gray-200">
-                    <Image src="/images/Tizne_Primal.png" alt="TIZNE PRIMAL" fill className="object-cover border border-gray-300" />
+                  <div className="relative aspect-[3/2] bg-gray-100">
+                    <Image src="/images/Tizne_Primal.png" alt="TIZNE PRIMAL" fill className="object-cover border border-gray-200" />
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-2">Visualización de referencia</p>
+                  <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <p className="mb-4">TIZNE PRIMAL explora relaciones entre combustión, residuo y oscuridad como formas materiales de inscripción.</p>
@@ -139,10 +139,10 @@ export default function Works() {
               <h2 className="font-bold text-base mb-6"><Link href="/works/persistem" className="underline hover:text-gray-600">PERSISTEM</Link></h2>
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[4/3] bg-gray-200">
-                    <Image src="/images/PERSISTEM.png" alt="PERSISTEM" fill className="object-cover border border-gray-300" />
+                  <div className="relative aspect-[3/2] bg-gray-100">
+                    <Image src="/images/PERSISTEM.png" alt="PERSISTEM" fill className="object-cover border border-gray-200" />
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-2">Visualización de referencia</p>
+                  <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <p className="mb-4">PERSISTEM investiga formas de permanencia residual y comportamiento material en sistemas sometidos a desgaste lento.</p>
@@ -163,10 +163,10 @@ export default function Works() {
               <h2 className="font-bold text-base mb-6"><Link href="/works/tramas-inestables" className="underline hover:text-gray-600">TRAMAS INESTABLES</Link></h2>
               <div className="flex flex-col md:flex-row gap-8 items-start">
                 <div className="w-full md:w-1/2">
-                  <div className="relative aspect-[4/3] bg-gray-200">
-                    <Image src="/images/TRAMAS_INESTABLES.png" alt="TRAMAS INESTABLES" fill className="object-cover border border-gray-300" />
+                  <div className="relative aspect-[3/2] bg-gray-100">
+                    <Image src="/images/Tramas_Inestables_2.png" alt="TRAMAS INESTABLES" fill className="object-cover border border-gray-200" />
                   </div>
-                  <p className="text-[11px] italic text-gray-500 mt-2">Visualización de referencia</p>
+                  <p className="text-[11px] italic text-gray-500 mt-3">Visualización de referencia</p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <p className="mb-4">TRAMAS INESTABLES es una instalación audiovisual que articula inteligencia artificial generativa, síntesis de video y superficies textiles artesanales.</p>
