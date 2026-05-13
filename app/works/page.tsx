@@ -12,6 +12,7 @@ const worksList = [
   { id: "traza_crono", image: "/images/Traza_Crono_2.png" },
   { id: "cedencia_pleuro", image: "/images/Cedencia_Pleuro_2.png" },
   { id: "rasvnte", image: "" },
+  { id: "tramas_inestables", image: "/images/Tramas_Inestables_2.png" },
 ];
 
 export default function Works() {
@@ -64,12 +65,16 @@ export default function Works() {
               if (!item) return null;
 
               return (
-                <article key={work.id} className="border-t border-gray-300 pt-6">
-                  <h2 className="font-bold text-base mb-6">
-                    <Link href={`/works/${work.id.replace('_', '-')}`} className="underline hover:text-gray-600">
-                      {item.title}
-                    </Link>
-                  </h2>
+                <div key={work.id}>
+                  {work.id === 'tramas_inestables' && (
+                    <hr className="border-black mb-16 mt-8" />
+                  )}
+                  <article className="border-t border-gray-300 pt-6">
+                    <h2 className="font-bold text-base mb-6">
+                      <Link href={`/works/${work.id.replace('_', '-')}`} className="underline hover:text-gray-600">
+                        {item.title}
+                      </Link>
+                    </h2>
                   <div className="flex flex-col md:flex-row gap-8 items-start">
                     <div className="w-full md:w-1/2">
                       <div className="relative aspect-[3/2] bg-[#e5e5e5] flex items-center justify-center border border-gray-200">
@@ -85,8 +90,8 @@ export default function Works() {
                       <p className="mb-4 italic text-gray-800">{item.subtitle}</p>
                       <p className="mb-6">{item.desc}</p>
                     </div>
-                  </div>
-                </article>
+                  </article>
+                </div>
               );
             })}
 
