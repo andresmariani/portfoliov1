@@ -75,20 +75,21 @@ export default function Works() {
                         {item.title}
                       </Link>
                     </h2>
-                  <div className="flex flex-col md:flex-row gap-8 items-start">
-                    <div className="w-full md:w-1/2">
-                      <div className="relative aspect-[3/2] bg-[#e5e5e5] flex items-center justify-center border border-gray-200">
-                        {work.image ? (
-                          <Image src={work.image} alt={item.title} fill className="object-cover" />
-                        ) : (
-                          <span className="text-xs text-gray-400 tracking-widest uppercase">Imagen en proceso</span>
-                        )}
+                    <div className="flex flex-col md:flex-row gap-8 items-start">
+                      <div className="w-full md:w-1/2">
+                        <div className="relative aspect-[3/2] bg-[#e5e5e5] flex items-center justify-center border border-gray-200">
+                          {work.image ? (
+                            <Image src={work.image} alt={item.title} fill className="object-cover" />
+                          ) : (
+                            <span className="text-xs text-gray-400 tracking-widest uppercase">Imagen en proceso</span>
+                          )}
+                        </div>
+                        <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
                       </div>
-                      <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
-                    </div>
-                    <div className="w-full md:w-1/2">
-                      <p className="mb-4 italic text-gray-800">{item.subtitle}</p>
-                      <p className="mb-6">{item.desc}</p>
+                      <div className="w-full md:w-1/2">
+                        <p className="mb-4 italic text-gray-800">{item.subtitle}</p>
+                        <p className="mb-6">{item.desc}</p>
+                      </div>
                     </div>
                   </article>
                 </div>
