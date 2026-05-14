@@ -3,16 +3,17 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useLanguage } from "../../context/LanguageContext";
+import ProjectImageGallery from "../../components/ProjectImageGallery";
 
 const worksList = [
-  { id: "tizne_primal", image: "/images/Tizne_Primal.png" },
-  { id: "persistem", image: "/images/PERSISTEM.png" },
-  { id: "canal_ombrosc", image: "/images/CANAL OMBROSC.png" },
-  { id: "fuga_noir", image: "/images/Fuga_Noir.png" },
-  { id: "traza_crono", image: "/images/Traza_Crono_2.png" },
-  { id: "cedencia_pleuro", image: "/images/Cedencia_Pleuro_2.png" },
-  { id: "rasvnte", image: "/images/RASVNTE.png" },
-  { id: "tramas_inestables", image: "/images/Tramas_Inestables_3.png" },
+  { id: "tizne_primal" },
+  { id: "persistem" },
+  { id: "canal_ombrosc" },
+  { id: "fuga_noir" },
+  { id: "traza_crono" },
+  { id: "cedencia_pleuro" },
+  { id: "rasvnte" },
+  { id: "tramas_inestables" },
 ];
 
 export default function Works() {
@@ -75,13 +76,7 @@ export default function Works() {
                     </h2>
                     <div className="flex flex-col md:flex-row gap-8 items-start">
                       <div className="w-full md:w-1/2">
-                        <div className="relative aspect-[3/2] bg-[#e5e5e5] flex items-center justify-center border border-gray-200">
-                          {work.image ? (
-                            <Image src={work.image} alt={item.title} fill className="object-cover" />
-                          ) : (
-                            <span className="text-xs text-gray-400 tracking-widest uppercase">Imagen en proceso</span>
-                          )}
-                        </div>
+                        <ProjectImageGallery projectId={work.id.replace('_', '-')} title={item.title} />
                         <p className="text-[11px] italic text-gray-500 mt-3">{t.works.ref_viz}</p>
                       </div>
                       <div className="w-full md:w-1/2">
