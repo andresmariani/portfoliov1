@@ -11,13 +11,13 @@ interface ProjectImageGalleryProps {
 export default function ProjectImageGallery({ projectId, title }: ProjectImageGalleryProps) {
   const [availableImages, setAvailableImages] = useState<number[]>([0]);
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
     const checkImages = async () => {
       const found: number[] = [];
-      // Buscar secuencialmente hasta 3 imágenes (0, 1, 2)
       for (let i = 0; i <= 2; i++) {
         try {
           const res = await fetch(`/images/${projectId}/${i}.webp`, { method: 'HEAD' });
@@ -25,10 +25,9 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
             found.push(i);
           }
         } catch (e) {
-          // Ignorar si no existe
+          // Ignorar
         }
       }
-      
       if (found.length > 0) {
         setAvailableImages(found);
       } else {
@@ -41,15 +40,22 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
 
   useEffect(() => {
     if (isHovered && availableImages.length > 1) {
-      // Iniciar la transición hacia la imagen secundaria (1) al colocar el cursor
-      setCurrentIndex(1);
-      // Alternar cíclicamente entre *todas* las imágenes (0, 1, 2...)
+      setCurrentIndex(prev => {
+        setPrevIndex(prev);
+        return 1;
+      });
+      
       timerRef.current = setInterval(() => {
-        setCurrentIndex(prev => (prev + 1) % availableImages.length);
-      }, 5000); // Intervalo de 5 segundos para permitir un fade prolongado
+        setCurrentIndex(prev => {
+          setPrevIndex(prev);
+          return (prev + 1) % availableImages.length;
+        });
+      }, 4500); 
     } else {
-      // Estado normal: volvemos a la portada suavemente
-      setCurrentIndex(0);
+      setCurrentIndex(prev => {
+        setPrevIndex(prev);
+        return 0;
+      });
       if (timerRef.current) clearInterval(timerRef.current);
     }
     
@@ -64,21 +70,30 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {availableImages.map((imgIndex) => (
-        <Image 
-          key={imgIndex}
-          src={`/images/${projectId}/${imgIndex}.webp`}
-          alt={`${title} - vista ${imgIndex}`}
-          fill
-          // Transición de crossfade extremadamente suave y etérea (3 segundos)
-          className={`object-cover transition-opacity duration-[3000ms] ease-in-out ${
-            currentIndex === imgIndex ? 'opacity-100' : 'opacity-0'
-          }`}
-        />
-      ))}
+      {availableImages.map((imgIndex) => {
+        const isCurrent = currentIndex === imgIndex;
+        const isPrev = prevIndex === imgIndex;
+        
+        // El secreto del crossfade perfecto:
+        // La imagen anterior se mantiene al 100% de opacidad pero en el fondo (z-0)
+        // La nueva imagen hace un fade-in suave por encima (z-10)
+        // Esto evita el molesto parpadeo gris donde ambas imágenes estaban al 50% de opacidad.
+        const opacityClass = (isCurrent || isPrev) ? 'opacity-100' : 'opacity-0';
+        const zIndexClass = isCurrent ? 'z-10' : 'z-0';
+
+        return (
+          <Image 
+            key={imgIndex}
+            src={`/images/${projectId}/${imgIndex}.webp`}
+            alt={`${title} - vista ${imgIndex}`}
+            fill
+            className={`object-cover transition-opacity duration-[3500ms] ease-in-out ${opacityClass} ${zIndexClass}`}
+          />
+        );
+      })}
       
       {availableImages.length === 0 && (
-        <span className="text-xs text-gray-400 tracking-widest uppercase relative z-10">Imagen en proceso</span>
+        <span className="text-xs text-gray-400 tracking-widest uppercase relative z-20">Imagen en proceso</span>
       )}
     </div>
   );
