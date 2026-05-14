@@ -46,7 +46,7 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
       // Alternar cíclicamente entre *todas* las imágenes (0, 1, 2...)
       timerRef.current = setInterval(() => {
         setCurrentIndex(prev => (prev + 1) % availableImages.length);
-      }, 3500); // Intervalo de 3.5 segundos
+      }, 5000); // Intervalo de 5 segundos para permitir un fade prolongado
     } else {
       // Estado normal: volvemos a la portada suavemente
       setCurrentIndex(0);
@@ -70,8 +70,8 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
           src={`/images/${projectId}/${imgIndex}.webp`}
           alt={`${title} - vista ${imgIndex}`}
           fill
-          // Transición de crossfade más suave, moderna y larga (2 segundos)
-          className={`object-cover transition-opacity duration-[2000ms] ease-in-out ${
+          // Transición de crossfade extremadamente suave y etérea (3 segundos)
+          className={`object-cover transition-opacity duration-[3000ms] ease-in-out ${
             currentIndex === imgIndex ? 'opacity-100' : 'opacity-0'
           }`}
         />
