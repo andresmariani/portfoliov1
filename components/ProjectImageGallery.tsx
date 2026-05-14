@@ -11,7 +11,7 @@ interface ProjectImageGalleryProps {
 export default function ProjectImageGallery({ projectId, title }: ProjectImageGalleryProps) {
   const [availableImages, setAvailableImages] = useState<number[]>([0]);
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [prevIndex, setPrevIndex] = useState(0);
+  const [prevIndex, setPrevIndex] = useState<number | null>(null);
   const [isHovered, setIsHovered] = useState(false);
   const timerRef = useRef<NodeJS.Timeout | null>(null);
 
@@ -53,7 +53,9 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
       }, 4500); 
     } else {
       setCurrentIndex(prev => {
-        setPrevIndex(prev);
+        if (prev !== 0) {
+          setPrevIndex(prev);
+        }
         return 0;
       });
       if (timerRef.current) clearInterval(timerRef.current);
@@ -74,12 +76,21 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
         const isCurrent = currentIndex === imgIndex;
         const isPrev = prevIndex === imgIndex;
         
-        // El secreto del crossfade perfecto:
-        // La imagen anterior se mantiene al 100% de opacidad pero en el fondo (z-0)
-        // La nueva imagen hace un fade-in suave por encima (z-10)
-        // Esto evita el molesto parpadeo gris donde ambas imágenes estaban al 50% de opacidad.
-        const opacityClass = (isCurrent || isPrev) ? 'opacity-100' : 'opacity-0';
-        const zIndexClass = isCurrent ? 'z-10' : 'z-0';
+        // El secreto de un crossfade museográfico perfecto:
+        // En lugar de hacer que ambas imágenes cambien su opacidad al mismo tiempo (lo que genera un flash gris),
+        // la nueva imagen aparece instantáneamente al 100% en el FONDO (z-0).
+        // La imagen anterior se mantiene en FRENTE (z-10) y se desvanece suavemente hacia 0%.
+        // Resultado: la nueva imagen se revela mágicamente por debajo sin ninguna caída de luz.
+        
+        let classes = "object-cover absolute inset-0 w-full h-full ";
+        
+        if (isCurrent) {
+          classes += "opacity-100 z-0"; // Sólida en el fondo, lista para ser revelada
+        } else if (isPrev) {
+          classes += "opacity-0 z-10 transition-opacity duration-[3000ms] ease-in-out"; // Se desvanece lentamente
+        } else {
+          classes += "opacity-0 z-0"; // Oculta
+        }
 
         return (
           <Image 
@@ -87,7 +98,7 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
             src={`/images/${projectId}/${imgIndex}.webp`}
             alt={`${title} - vista ${imgIndex}`}
             fill
-            className={`object-cover transition-opacity duration-[3500ms] ease-in-out ${opacityClass} ${zIndexClass}`}
+            className={classes}
           />
         );
       })}
