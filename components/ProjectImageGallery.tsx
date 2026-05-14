@@ -41,25 +41,14 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
 
   useEffect(() => {
     if (isHovered && availableImages.length > 1) {
-      if (availableImages.length === 2) {
-        // Si solo hay 0 y 1, alternamos entre ambas
-        setCurrentIndex(1);
-        timerRef.current = setInterval(() => {
-          setCurrentIndex(prev => (prev === 0 ? 1 : 0));
-        }, 3500);
-      } else {
-        // Si hay más de dos (ej. 0, 1, 2), alternamos entre las secundarias (1, 2)
-        setCurrentIndex(1);
-        timerRef.current = setInterval(() => {
-          setCurrentIndex(prev => {
-            let next = prev + 1;
-            if (next >= availableImages.length) next = 1;
-            return next;
-          });
-        }, 3500);
-      }
+      // Iniciar la transición hacia la imagen secundaria (1) al colocar el cursor
+      setCurrentIndex(1);
+      // Alternar cíclicamente entre *todas* las imágenes (0, 1, 2...)
+      timerRef.current = setInterval(() => {
+        setCurrentIndex(prev => (prev + 1) % availableImages.length);
+      }, 3500); // Intervalo de 3.5 segundos
     } else {
-      // Estado normal: volvemos a la portada
+      // Estado normal: volvemos a la portada suavemente
       setCurrentIndex(0);
       if (timerRef.current) clearInterval(timerRef.current);
     }
@@ -81,14 +70,15 @@ export default function ProjectImageGallery({ projectId, title }: ProjectImageGa
           src={`/images/${projectId}/${imgIndex}.webp`}
           alt={`${title} - vista ${imgIndex}`}
           fill
-          className={`object-cover transition-opacity duration-[1500ms] ease-in-out ${
-            currentIndex === imgIndex ? 'opacity-100 z-10' : 'opacity-0 z-0'
+          // Transición de crossfade más suave, moderna y larga (2 segundos)
+          className={`object-cover transition-opacity duration-[2000ms] ease-in-out ${
+            currentIndex === imgIndex ? 'opacity-100' : 'opacity-0'
           }`}
         />
       ))}
       
       {availableImages.length === 0 && (
-        <span className="text-xs text-gray-400 tracking-widest uppercase z-0">Imagen en proceso</span>
+        <span className="text-xs text-gray-400 tracking-widest uppercase relative z-10">Imagen en proceso</span>
       )}
     </div>
   );
